@@ -55,22 +55,22 @@ def data_info(churn_data):
     print(churn_data.info())
 
 # Function to check for missing values
-def data_missing(churn_data):
+def missing_data(churn_data):
     print("\nMissing Values:")
     print(churn_data.isnull().sum())
 # Function to identify and display duplicate rows
-def identify_duplicates(churn_data):
+def duplicates(churn_data):
     duplicates = churn_data[churn_data.duplicated()]
     print("\nDuplicate Rows:")
     print(duplicates)
 # Function to display descriptive statistics of numerical columns
-def data_describe(churn_data):
+def data_description(churn_data):
     print("\nDescriptive Statistics:")
     print(churn_data.describe())
 # Function to explore the dataset
 def explore_dataset(churn_data):
     data_shape(churn_data)
     data_info(churn_data)
-    data_missing(churn_data)
-    identify_duplicates(churn_data)
-    data_describe(churn_data)
+    missing_data(churn_data)
+    duplicates(churn_data)
+    data_description(churn_data)
