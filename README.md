@@ -39,11 +39,11 @@ Summary of the datasets features:
 - Churn: Indicates if the customer has ended their contract or not.
 
 # Modeling
-1. Baseline model: Logistic Regression:![alt text](image.png)
+1. Baseline model: Logistic Regression: The model performs well in identifying true negatives (non-churners) but has difficulty predicting true positives (churners). ![alt text](image.png)
 
-2. XGboost Classifier:![alt text](image-1.png)
+2. XGboost Classifier:This model performs well in identifying true negatives (non-churners) but has difficulty accurately predicting churners. ![alt text](image-1.png)
 
-3. Gradient Boosting Model:![alt text](image-2.png)
+3. Gradient Boosting Model:The model excels at predicting true negatives (non-churners) but struggles with accurately predicting churners. ![alt text](image-2.png)
 
 4. Tuning the best two models:![alt text](image-3.png)
 
