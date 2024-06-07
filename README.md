@@ -39,10 +39,13 @@ Summary of the datasets features:
 - Churn: Indicates if the customer has ended their contract or not.
 
 # Modeling
-1. Baseline model: Logistic Regression: ![alt text](image.png)
-2. XGboost Classifier: ![alt text](image-1.png)
-3. Gradient Boosting Model: ![alt text](image-2.png)
-4. Tuning the best two models: ![alt text](image-3.png)
+1. Baseline model: Logistic Regression:![alt text](image.png)
+
+2. XGboost Classifier:![alt text](image-1.png)
+
+3. Gradient Boosting Model:![alt text](image-2.png)
+
+4. Tuning the best two models:![alt text](image-3.png)
 
 # Evaluation
 Three models were tested: Logistic Regression, Gradient Boosting, and XGBoost. After evaluation, two models were fine-tuned for improved performance. The Test ROC AUC Score measures the model's ability to distinguish between positive and negative outcomes.In this case, Gradient Boosting had the highest score of 0.76, indicating superior performance in differentiating between outcomes. 
